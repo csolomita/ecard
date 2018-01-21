@@ -10,13 +10,14 @@
 
 <head>
     <title>Chelsea's eCard</title>
+    <h1>Send an eGreeting to Your Friends!</h1>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide col-xs-6" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -27,15 +28,31 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="~/images/kitten 1.jpg" />
+                <img src="~/images/card_birthday.png" class="img-responsiv center-block" />
             </div>
 
             <div class="item">
-                <img src="~/images/kitten 2.jpg" />
+                <img src="~/images/card_anniversary.png" class="img-responsiv center-block" />
             </div>
 
             <div class="item">
-                <img src="~/images/kitten3.jpg" />
+                <img src="~/images/card_babyshower.png" class="img-responsiv center-block" />
+            </div>
+
+            <div class="item">
+                <img src="~/images/card_valentines.png" class="img-responsiv center-block" />
+            </div>
+
+            <div class="item">
+                <img src="~/images/card_frame_black.png" class="img-responsiv center-block" />
+            </div>
+
+            <div class="item">
+                <img src="~/images/card_frame_gold.png" class="img-responsiv center-block" />
+            </div>
+
+            <div class="item">
+                <img src="~/images/card_frame_wood.png" class="img-responsiv center-block" />
             </div>
         </div>
 
@@ -51,36 +68,95 @@
     </div>
 
 
+    <div class="container-fluid col-xs-6">
 
-    <a href="http://wowoco.org"> <img src="~/images/banner1.svg" alt="Blue Banner" title="click here" /> </a>
+        <div class="row1">
+            <div class="col-xs-3">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_birthday.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
 
-    <h1><strong>Lorem</strong></h1>
 
-    <h2>ipsum</h2>
+            <div class="col-xs-3">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_anniversary.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
 
-    <h3><strong>dolor</strong></h3>
 
-    <a href="https://www.google.com" class="bodylink" target="_blank"> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+            <div class="col-xs-3">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_babyshower.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
 
-    <div class="jackie">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
-    <div class="chelsea">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
-    <div class="beverly">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
 
-    <ol>
-        <li>Duis</li>
-        <li>aute</li>
-        <li>irure</li>
-    </ol>
+            <div class="col-xs-3">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_valentines.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
 
-    <ul>
-        <li>dolor</li>
-        <li>in</li>
-        <li>reprehenderit</li>
-    </ul>
+        </div>
 
-    <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="row2">
+            <div class="col-xs-4">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_frame_black.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
 
-    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-xs-4">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_frame_gold.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="col-xs-4">
+                <div class="photo img-rounded">
+                    <img src="~/images/card_frame_wood.png" class="img-responsive img-thumbnail" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    @*<a href="http://wowoco.org"> <img src="~/images/banner1.svg" alt="Blue Banner" title="click here" /> </a>
+
+        <h1><strong>Lorem</strong></h1>
+
+        <h2>ipsum</h2>
+
+        <h3><strong>dolor</strong></h3>
+
+        <a href="https://www.google.com" class="bodylink" target="_blank"> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+
+        <div class="jackie">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="chelsea">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="beverly">Ut enim ad minim veniam, quis nostrud exercitation ullamco <span>laboris</span> nisi ut aliquip ex ea commodo consequat.</div>
+
+        <ol>
+            <li>Duis</li>
+            <li>aute</li>
+            <li>irure</li>
+        </ol>
+
+        <ul>
+            <li>dolor</li>
+            <li>in</li>
+            <li>reprehenderit</li>
+        </ul>
+
+        <p> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>*@
+
+    <footer>
+        
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
