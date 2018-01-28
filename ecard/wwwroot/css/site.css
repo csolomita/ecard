@@ -15,9 +15,17 @@ h1 {
 .wrapper{
     padding: 1em;
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    outline: 0;
+    opacity: 1;
+}
+
 a.right.carousel-control {
     color: none;
 }
+
 .container-fluid .row1 {
     margin: 8em 0 0 0;
 }
@@ -25,10 +33,10 @@ a.right.carousel-control {
     margin: 4em 0 0 0;
 }
 
-/*.photo {
+.photo {
     width: 700px;
     background: pink;
     text-align: center;
     padding: 1em;
     margin: 0 0 1em 1em;
-}*/
+}
