@@ -12,9 +12,9 @@ h1 {
     background-color: #f15b29;
     color: #ffffff;
 }
-.wrapper{
+/*.wrapper{
     padding: 1em;
-}
+}*/
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
@@ -26,12 +26,12 @@ a.right.carousel-control {
     color: none;
 }
 
-.container-fluid .row1 {
+/*.container-fluid .row1 {
     margin: 8em 0 0 0;
 }
 .container-fluid .row2 {
     margin: 4em 0 0 0;
-}
+}*/
 
 .photo {
     width: 700px;
@@ -39,4 +39,14 @@ a.right.carousel-control {
     text-align: center;
     padding: 1em;
     margin: 0 0 1em 1em;
+}
+
+.row {
+    display: flex;
+    align-content: center;
+}
+
+.p {
+    display:flex;
+    align-content: center;
 }
